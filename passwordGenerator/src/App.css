@@ -1,0 +1,69 @@
+*{
+  padding:0;
+  margin:0;
+ box-sizing:border-box;
+}
+
+body{
+  background-color: #080101;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin-block: 50px;
+  height: 100vh;
+}
+.wrapper{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #1c1c1c;
+  height:fit-content;
+  width:50vw;
+  padding:15px 40px;
+  border-radius: 10px;
+  gap: 15px;
+}
+h1{
+  color: #fff;
+  font-size: 29px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.input-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input-wrapper input{
+  width: 100%;
+  height: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.copyBtn{
+  height: 40px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: none;
+  background-color: #1f08e9;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  padding-inline: 15px;
+}
+
+
+
