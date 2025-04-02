@@ -16,7 +16,7 @@ function Application(){
                     <CreateButton newColor = "Purple" applyColor = {setColor} isSelected={selectedButton==="Purple"} onSelect={()=>setSelectedButton("Purple")} />
                 </div>
             </div>
-         </div>, did se
+         </div>
         </>
     )
 }
