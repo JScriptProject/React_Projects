@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+.container1{
+  width: 100vw;
+  height:100vh;
+  position: relative;
+  background-color: #7b8616;
+  transition: all 0.3s;
+}
+
+.bar-container{
+  position: absolute;
+  bottom: 20px;
+  width:100vw;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+}
+.bar{
+  background-color: white;
+  padding:10px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn{
+  padding: 7px 10px;
+  border-radius: 15px;
+  outline:none;
+  border: none;
+  color:white;
+  cursor: pointer;
+}
+
+.btn-red{
+  background-color: red;
+}
+.btn-green{
+  background-color: green;
+}
+
+.btn-blue{
+  background-color: blue;
+}
+
